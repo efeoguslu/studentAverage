@@ -9,7 +9,7 @@ for j in range(0, num, 1):
     name = input("please enter student name: ")
     names.append(name)
 
-    prompt = "please enter " + name + "'s grade: "
+    prompt = "please enter " + name + "'s grade:   "
 
     grade = float(input(prompt))
     grades.append(grade)
@@ -28,3 +28,4 @@ with open('studentData.pkl', 'rb') as readF:
 print(a)
 print(b)
 print(c)
+print("a new print statement")
